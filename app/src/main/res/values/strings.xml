@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizHistoryApp</string>
+
+    <string name="welcome">¡Bienvenid@!</string>
+    <string name="are_you_ready">¿Estas List@ para jugar?</string>
+    <string name="start">Comenzar</string>
+    <string name="write_your_name">Escribe tu nombre</string>
+    
+    <string name="question">Pregunta</string>
+    <string name="submit">Enviar</string>
+    
+    <string name="correct">✅ ¡Correcto!</string>
+    <string name="incorrect">❌ ¡Incorrecto!</string>
+    <string name="following">Siguiente</string>
+    
+    <string name="quiz_finalized">¡Quiz Finalizado!</string>
+    <string name="name">Nombre de usuario</string>
+    <string name="score">Puntuación</string>
+    <string name="restart_game">Reiniciar Juego</string>
+    <string name="exit">Salir</string>
+</resources>

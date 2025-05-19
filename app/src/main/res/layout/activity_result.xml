@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- Mensaje de Finalizado -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="@string/quiz_finalized"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- Campo dende se muestra el nombre del usuario-->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:text="@string/name"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <!-- Campo donde se muestra el puntaje obtenido-->
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:text="@string/score"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <!-- Botón para reiniciar el juego -->
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/restart_game"
+        android:textSize="30sp" />
+
+    <!-- Botón para salir de la aplicación -->
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:textSize="30sp" />
+
+</LinearLayout>
